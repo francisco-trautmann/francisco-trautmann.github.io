@@ -1,0 +1,120 @@
+    @font-face{
+    font-family: 'Whyte Inktrap';
+    src: url(fonts/WhyteInktrap-Medium\ copie.woff2)format('woff2');
+    src: url(fonts/WhyteInktrap-Medium\ copie.woff)format('woff');
+    }
+
+    @font-face{
+      font-family: 'Baunk';
+      src: url(fonts/Baunk.woff)format('woff');
+    }
+       
+        .infos{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: end;
+        font-size: 20px;
+        margin-right: 20px;
+        }
+
+        .infos a{
+            color: black;
+            text-decoration: none;
+            font-weight: 500;
+          }
+          
+          .infos a:visited{
+          
+          color: black;
+          text-decoration: none;
+          font-weight: 500;
+          }
+          
+          .infos a:hover{
+              color: blue;
+              text-decoration: none;
+              font-weight: 900;
+          }
+
+
+    h1 {
+    line-height: 1;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Whyte Inktrap';
+    border-bottom-style: dashed;
+    border-width: 2px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+     }
+
+     
+     h2{
+        line-height: 1;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Baunk';
+        margin-top: 50px;
+        text-decoration: underline;
+     }
+
+     p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        max-width: 80%;
+        justify-content: center;
+        margin: auto;
+     }
+
+
+     .container{
+         width: 500px;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(500px,1fr);
+        justify-content: center;
+        grid-gap:30px;
+     }
+
+     .img{
+      width: fit-content;
+      margin: auto;
+     }
+
+     .banner{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      width: 1000px;
+      margin: auto;
+      max-width: 80%;
+     }
+
+     .left{
+      width: 80px;
+      margin: auto;
+     }
+
+     .home{
+      width: 80px;
+      margin:auto
+     }
+
+     .right{
+      width: 80px;
+      margin: auto;
+     }
+
+
+     .home a{
+      color: black;
+    }
+    
+    .home a:visited{
+    
+    color: black;
+    }
+    
+    .home a:hover{
+        color: blue;
+    }
