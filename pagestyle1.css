@@ -126,19 +126,33 @@
       margin: auto;
      }
 
+     .home svg{
+      width: 80px;
+     }
 
-     .home a{
-      color: black;
-    }
-    
-    .home a:visited{
-    
-    color: black;
-    }
-    
-    .home a:hover{
-        color: blue;
-    }
+     .home svg:hover{
+      width: 80px;
+      fill: blue;
+     }
+
+     .left svg{
+      width: 80px;
+     }
+
+     .left svg:hover{
+      width: 80px;
+      fill: blue;
+     }
+
+     .right svg{
+      width: 80px;
+     }
+
+     .right svg:hover{
+      width: 80px;
+      fill: blue;
+     }
+
 
     .test{
       display: grid;
