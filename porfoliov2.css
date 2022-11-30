@@ -162,6 +162,33 @@ font-weight: 900;
   border:1px solid black;
 }
 
+.visuels1 img:hover{
+  border:2px solid rgb(64, 255, 0);
+}
+
+.visuels1 p:hover{
+  background: rgb(64, 255, 0);
+  color: aliceblue;
+}
+
+.visuels2 p:hover{
+  background: rgb(64, 255, 0);
+  color: aliceblue;
+}
+
+.visuels3 p:hover{
+  background: rgb(64, 255, 0);
+  color: aliceblue;
+}
+
+.visuels2 img:hover{
+  border:2px solid rgb(64, 255, 0);
+}
+
+.visuels3 img:hover{
+  border:2px solid rgb(64, 255, 0);
+}
+
 
 .visuels1 p{
   padding: 2px;
