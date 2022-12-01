@@ -78,6 +78,12 @@ font-weight: 100;
   margin: auto;
   margin-bottom: -30px;
   max-width: 90%;
+  transition: 0.5s;
+}
+
+.title:hover{
+  letter-spacing: 10px;
+  transition: 0.5s;
 }
 
 h2{
@@ -86,11 +92,17 @@ h2{
   font-size: 20px;
   font-family: 'Baunk';
   margin: 50px auto;
-  border-bottom-style: dashed;
-  border-width: 2px;
+  border-bottom-style: dotted;
+  border-width: 4px;
   padding-bottom: 40px;
   font-weight: 200;
   text-decoration: underline;
+  transition: 0.3s;
+}
+
+h2:hover{
+  color: #FC94FF;
+  transition: 0.3s;
 }
 
 .thanks{

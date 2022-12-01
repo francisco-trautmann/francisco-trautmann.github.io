@@ -9,7 +9,37 @@
       src: url(fonts/Baunk.woff)format('woff');
     }
        
+    body{
+      background-color: blue;
+    }
 
+    p{
+      color:    white;
+    }
+
+    .lien {
+      color: white;
+    }
+
+    .lien :visited{
+     color: azure;
+    }
+
+    .lien :hover{
+      color: rgb(255, 8, 8);
+    }
+
+
+
+    h1{
+      color:    white;
+    }
+    h2{
+      color:    white;
+    }
+    .mail{
+      color:    white;
+    }
 
     h1 {
     line-height: 1;
@@ -36,7 +66,7 @@
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
-        max-width: 70%;
+        max-width: 50%;
         justify-content: center;
         margin: auto;
         border-style: solid;
@@ -90,6 +120,7 @@
        
        .home{
         margin: auto;
+        fill: white;
        }
 
        .home svg{
@@ -98,5 +129,5 @@
 
        .home svg:hover{
         width: 80px;
-        fill: blue;
+        fill: rgb(255, 8, 8);
        }
