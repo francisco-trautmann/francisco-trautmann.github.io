@@ -26,8 +26,9 @@
     }
 
     .lien :hover{
-      color: rgb(255, 8, 8);
+      color: rgb(251, 255, 0);
     }
+
 
 
 
@@ -92,6 +93,10 @@
          font-size: 18px;
       }
 
+      p{
+        max-width: 70%; 
+       }
+
     }
     @media (max-width:410px){
       .mail{
@@ -100,12 +105,21 @@
 
       .text{
          font-size: 15px;
+
       }
+
+      p{
+        max-width: 70%; 
+       }
     }
 
     @media (max-width:350px){
       .mail{
         font-size: 16px;
+      }
+
+      p{
+       max-width: 70%; 
       }
     }
 
@@ -129,5 +143,5 @@
 
        .home svg:hover{
         width: 80px;
-        fill: rgb(255, 8, 8);
+        fill: rgb(251, 255, 0);
        }
